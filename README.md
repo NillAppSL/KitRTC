@@ -46,6 +46,8 @@ Docs and guides at [https://docs.nillapp.com/kitrtc](https://docs.nillapp.com/ki
 
 [Slack](https://join.slack.com/t/kitrtc-webrtc/shared_invite/zt-279e5jjbm-yFxQZl~ymHsZM8vXUXXBzg)
 
+[Github Official / Support](https://github.com/NillAppSL/kitrtc)
+
 ## Installation
 
 
@@ -61,7 +63,7 @@ Import service and components from the package in app.module.ts:
 
 ```typescript
 //Import service and module
-import { KitRtc, KitRtcModule } from 'KitRtcJs';
+import { KitRtc, KitRtcModule } from 'kitrtcjs';
 
 @NgModule({
   ...
@@ -84,7 +86,7 @@ import { KitRtc, KitRtcModule } from 'KitRtcJs';
 Examples below are in TypeScript, if using JS/CommonJS imports replace import with:
 
 ```typescript
-import { KitRtc } from 'KitRtcJs';
+import { KitRtc } from 'kitrtcjs';
 
 ...
 //For test purposes in development environment
